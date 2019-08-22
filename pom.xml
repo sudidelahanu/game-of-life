@@ -494,5 +494,15 @@
                 </plugins>
             </reporting>
         </profile>
-    </profiles>
+    </profiles><distributionManagement>
+  <repository>
+    <id>Release1</id>
+    <url>http://13.126.237.132:8081/nexus/content/repositories/Release1</url>
+  </repository>  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://13.126.237.132:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+    
+</distributionManagement>
+    
 </project>
