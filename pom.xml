@@ -494,7 +494,8 @@
                 </plugins>
             </reporting>
         </profile>
-    </profiles><distributionManagement>
+    </profiles>
+    <distributionManagement>
   <repository>
     <id>Release1</id>
     <url>http://13.126.237.132:8081/nexus/content/repositories/Release1</url>
